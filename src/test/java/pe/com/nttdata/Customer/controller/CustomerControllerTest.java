@@ -37,8 +37,4 @@ class CustomerControllerTest {
         assertNotNull(m.get(0).getId());
         assertTrue(m.size()>0);
     }
-
-    @Test
-    void fintById() {
-    }
 }
